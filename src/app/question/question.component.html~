@@ -1,0 +1,43 @@
+<hr>
+<div class="container">
+  <h3 class="first">Question / प्रश्न</h3>
+  <hr>
+  <div class="card">
+    <div class="card-block">
+      <h5>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</h5>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-block">
+      <h5>
+	यह एक सरल विपणन या सूचनात्मक वेबसाइट के लिए एक टेम्पलेट है इसमें एक बड़ा कॉलआउट शामिल होता है जिसे एक जंबोट्रोन कहा जाता है और सामग्री के तीन सहायक टुकड़े होते हैं। इसे और अधिक अद्वितीय बनाने के लिए एक शुरुआती बिंदु के रूप में उपयोग करें</h5>
+    </div>
+  </div>
+  <hr>
+
+  <div class="card card-inverse" style="background-color: #333; border-color: #333;">
+    <div class="card-block">
+      <h3 class="first">Options / विकल्प</h3>
+      <div class="ui-g" style="width:250px;margin-bottom:10px">
+	<div class="ui-g-12">
+	  <p-radioButton name="group1" value="Option 1" label="Option 1" [(ngModel)]="val1"></p-radioButton>
+	</div>
+	<div class="ui-g-12">
+	  <p-radioButton name="group1" value="Option 2" label="Option 2" [(ngModel)]="val1"></p-radioButton>
+	</div>
+	<div class="ui-g-12">
+	  <p-radioButton name="group1" value="Option 3" label="Option 3" [(ngModel)]="val1">
+	</p-radioButton></div>
+	<div class="ui-g-12">
+	  <p-radioButton name="group1" value="Option 4" label="Option 4" [(ngModel)]="val1"></p-radioButton>
+	</div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <a href="#" class="btn btn-primary">Previous</a>
+  <a href="#" class="btn btn-primary pull-right">Next</a>
+</div>
+
+

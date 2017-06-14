@@ -1,0 +1,17 @@
+import { QuestionModel } from './question.model';
+import { QUESTIONS } from './mock-questions';
+
+export class QuestionService {
+    private dataStore = {
+        questions: []
+    };
+
+    constructor() {
+        this.dataStore.questions = QUESTIONS;
+    }
+
+    getQuestion(id) {
+        return this.dataStore.questions[0];
+    }
+
+}
